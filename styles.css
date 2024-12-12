@@ -318,4 +318,9 @@ h1{
 
 }
 .shake-little:hover,
-.shake-trigger:hover .shake-little, .shake-l
+.shake-trigger:hover .shake-little, .shake-little.shake-freeze, .shake-little.shake-freezeshake-constant {
+    animation-name: shake-little;
+    animation-duration: 100ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
